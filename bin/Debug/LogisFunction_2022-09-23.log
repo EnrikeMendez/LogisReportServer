@@ -1,0 +1,12 @@
+Archivo creado el 23/09/2022 16:02:05.831 
+
+16:02:05.831 - 23/09/2022 16:02:05.831 - Inicia proceso Anexo 24 Tetrapack
+16:02:05.832 - 23/09/2022 16:02:05.832 - Consulta información Anexo24_14005
+16:02:56.762 - 23/09/2022 16:02:56.762 - Inicia proceso Anexo 24 Tetrapack
+16:02:56.763 - 23/09/2022 16:02:56.763 - Consulta información Anexo24_14005
+16:04:02.741 - 23/09/2022 16:04:02.741 - Genera excel Anexo24_14005
+16:04:03.281 - 23/09/2022 16:04:03.281 - Genera Zip Anexo24_14005
+16:04:03.304 - 23/09/2022 16:04:03.304 - Envía correo electrónico Anexo24_14005
+16:04:43.400 - 23/09/2022 16:04:43.400 - Borra carpeta generada en el servidor C:\Users\usuario\AppData\Local\Temp\20220923160256760/Anexo_24_16-09-2022_to_22-09-2022_cliente_14005.xlsx
+16:04:43.402 - 23/09/2022 16:04:43.402 - Borra carpeta generada en el servidor C:\Users\usuario\AppData\Local\Temp\20220923160256760_zip\Anexo_24_16-09-2022_to_22-09-2022_cliente_14005.zip
+16:04:43.403 - 23/09/2022 16:04:43.403 - Termina proceso Anexo24_14005

@@ -1,0 +1,28 @@
+Archivo creado el 23/09/2022 14:04:50.738 
+
+14:04:50.736 - 23/09/2022 14:04:50.736 - Parametros introducidos: 6928652 0 
+
+14:04:51.216 - 23/09/2022 14:04:51.216 - Inicia proceso Guias Disponibles. (6928652)
+14:04:51.217 - 23/09/2022 14:04:51.217 - Consulta información. (6928652)
+14:15:15.239 - 23/09/2022 14:15:15.239 - Parametros introducidos: 6928652 0 
+
+14:15:15.711 - 23/09/2022 14:15:15.711 - Inicia proceso Guias Disponibles. (6928652)
+14:15:15.712 - 23/09/2022 14:15:15.712 - Consulta información. (6928652)
+14:15:35.691 - 23/09/2022 14:15:35.691 - Genera excel. (6928652)
+14:15:39.644 - 23/09/2022 14:15:39.644 - Genera Zip. (6928652)
+14:15:39.686 - 23/09/2022 14:15:39.686 - Envía correo electrónico. (6928652)
+14:16:32.729 - 23/09/2022 14:16:32.729 - Parametros introducidos: 6928652 0 
+
+14:16:32.981 - 23/09/2022 14:16:32.981 - Inicia proceso Guias Disponibles. (6928652)
+14:16:32.982 - 23/09/2022 14:16:32.982 - Consulta información. (6928652)
+15:41:58.699 - 23/09/2022 15:41:58.689 - Parametros introducidos: 6928652 0 
+
+15:41:59.040 - 23/09/2022 15:41:59.039 - Inicia proceso Guias Disponibles. (6928652)
+15:41:59.041 - 23/09/2022 15:41:59.041 - Consulta información. (6928652)
+15:56:10.008 - 23/09/2022 15:56:10.008 - Genera excel. (6928652)
+15:56:10.700 - 23/09/2022 15:56:10.700 - Genera Zip. (6928652)
+15:56:10.724 - 23/09/2022 15:56:10.723 - Envía correo electrónico. (6928652)
+16:02:05.826 - 23/09/2022 16:02:05.825 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:02:05.828 - 23/09/2022 16:02:05.828 - Proceso local, no consulta parametros de la BD´s
+16:02:56.757 - 23/09/2022 16:02:56.756 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:02:56.759 - 23/09/2022 16:02:56.759 - Proceso local, no consulta parametros de la BD´s

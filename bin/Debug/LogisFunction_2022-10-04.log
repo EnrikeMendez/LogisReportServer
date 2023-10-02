@@ -1,0 +1,12 @@
+Archivo creado el 04/10/2022 19:46:53.647 
+
+19:46:53.641 - 04/10/2022 19:46:53.641 - Inicia proceso Anexo 24 Tetrapack
+19:46:53.649 - 04/10/2022 19:46:53.649 - Consulta información Anexo24_14005
+19:47:03.428 - 04/10/2022 19:47:03.428 - Genera excel Anexo24_14005
+19:47:04.280 - 04/10/2022 19:47:04.280 - Genera Zip Anexo24_14005
+19:47:04.354 - 04/10/2022 19:47:04.354 - Envía correo electrónico Anexo24_14005
+19:47:04.502 - 04/10/2022 19:47:04.502 - Borra carpeta generada en el servidor C:\Users\usuario\AppData\Local\Temp\20221004194653639/Anexo_24_27-09-2022_to_03-10-2022_cliente_14005.xlsx
+19:47:04.505 - 04/10/2022 19:47:04.504 - Borra carpeta generada en el servidor C:\Users\usuario\AppData\Local\Temp\20221004194653639_zip\Anexo_24_27-09-2022_to_03-10-2022_cliente_14005.zip
+19:47:04.506 - 04/10/2022 19:47:04.506 - Termina proceso Anexo24_14005
+19:48:07.794 - 04/10/2022 19:48:07.794 - Inicia proceso nuis pedientes nota de credito (7034233)
+19:48:07.795 - 04/10/2022 19:48:07.795 - Consulta información. (7034233)

@@ -1,0 +1,73 @@
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ReportServer2022.csproj.AssemblyReference.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ReportServer2022.csproj.CoreCompileInputs.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\bin\Debug\ReportServer2022.exe.config
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\bin\Debug\ReportServer2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\bin\Debug\ReportServer2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ReportServer2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ReportServer2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ReportServer2022.csproj.ResolveComReference.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\bin\Debug\ReportServer2022.exe.config
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\bin\Debug\ReportServer2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\bin\Debug\ReportServer2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\bin\Debug\SpreadsheetLight.dll
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\bin\Debug\SpreadsheetLight.xml
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\obj\Debug\ReportServer2022.csproj.AssemblyReference.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\obj\Debug\ReportServer2022.csproj.ResolveComReference.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\obj\Debug\ReportServer2022.csproj.CoreCompileInputs.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\obj\Debug\ReportServer2022.csproj.CopyComplete
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\obj\Debug\ReportServer2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\ReportServer2022\obj\Debug\ReportServer2022.pdb
+F:\ReportServer2022\bin\Debug\ReportServer2022.exe.config
+F:\ReportServer2022\bin\Debug\ReportServer2022.exe
+F:\ReportServer2022\bin\Debug\ReportServer2022.pdb
+F:\ReportServer2022\bin\Debug\DocumentFormat.OpenXml.dll
+F:\ReportServer2022\bin\Debug\SpreadsheetLight.dll
+F:\ReportServer2022\bin\Debug\SpreadsheetLight.xml
+F:\ReportServer2022\obj\Debug\ReportServer2022.csproj.AssemblyReference.cache
+F:\ReportServer2022\obj\Debug\ReportServer2022.csproj.ResolveComReference.cache
+F:\ReportServer2022\obj\Debug\ReportServer2022.csproj.CoreCompileInputs.cache
+F:\ReportServer2022\obj\Debug\ReportServer2022.csproj.CopyComplete
+F:\ReportServer2022\obj\Debug\ReportServer2022.exe
+F:\ReportServer2022\obj\Debug\ReportServer2022.pdb
+C:\ReportServer2022\bin\Debug\ReportServer2022.exe.config
+C:\ReportServer2022\bin\Debug\ReportServer2022.exe
+C:\ReportServer2022\bin\Debug\ReportServer2022.pdb
+C:\ReportServer2022\bin\Debug\DocumentFormat.OpenXml.dll
+C:\ReportServer2022\bin\Debug\LogisFunction.dll
+C:\ReportServer2022\bin\Debug\SpreadsheetLight.dll
+C:\ReportServer2022\bin\Debug\LogisFunction.pdb
+C:\ReportServer2022\bin\Debug\SpreadsheetLight.xml
+C:\ReportServer2022\obj\Debug\ReportServer2022.csproj.ResolveComReference.cache
+C:\ReportServer2022\obj\Debug\ReportServer2022.csproj.CoreCompileInputs.cache
+C:\ReportServer2022\obj\Debug\ReportServer2022.csproj.CopyComplete
+C:\ReportServer2022\obj\Debug\ReportServer2022.exe
+C:\ReportServer2022\obj\Debug\ReportServer2022.pdb
+C:\ReportServer2022\obj\Debug\ReportServer2022.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\ReportServer2022.exe.config
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\ReportServer2022.exe
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\ReportServer2022.pdb
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\LogisFunction.dll
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\SpreadsheetLight.dll
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\LogisFunction.pdb
+C:\Users\usuario\source\repos\ReportServer2022\bin\Debug\SpreadsheetLight.xml
+C:\Users\usuario\source\repos\ReportServer2022\obj\Debug\ReportServer2022.csproj.ResolveComReference.cache
+C:\Users\usuario\source\repos\ReportServer2022\obj\Debug\ReportServer2022.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\ReportServer2022\obj\Debug\ReportServer2022.csproj.CopyComplete
+C:\Users\usuario\source\repos\ReportServer2022\obj\Debug\ReportServer2022.exe
+C:\Users\usuario\source\repos\ReportServer2022\obj\Debug\ReportServer2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\ReportServer2022.exe.config
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\ReportServer2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\ReportServer2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\LogisFunction.dll
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\SpreadsheetLight.dll
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\LogisFunction.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\bin\Debug\SpreadsheetLight.xml
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\obj\Debug\ReportServer2022.csproj.ResolveComReference.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\obj\Debug\ReportServer2022.csproj.CoreCompileInputs.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\obj\Debug\ReportServer2022.csproj.CopyComplete
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\obj\Debug\ReportServer2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\obj\Debug\ReportServer2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Report Server 2022\ReportServer2022\obj\Debug\ReportServer2022.csproj.AssemblyReference.cache

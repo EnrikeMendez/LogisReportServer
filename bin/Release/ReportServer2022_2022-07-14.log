@@ -1,0 +1,526 @@
+Archivo creado el 14/07/2022 08:34:04.952 
+
+08:34:04.936 - 14/07/2022 08:34:04.935 - No se ha introducido el número correcto de argumentos por linea de comandos.
+08:34:04.955 - 14/07/2022 08:34:04.954 - Proceso local, no consulta parametros de la BD´s
+08:36:47.949 - 14/07/2022 08:36:47.949 - No se ha introducido el número correcto de argumentos por linea de comandos.
+08:36:47.951 - 14/07/2022 08:36:47.951 - Proceso local, no consulta parametros de la BD´s
+08:36:47.964 - 14/07/2022 08:36:47.964 - Inicia proceso Guias Disponibles.
+08:36:47.968 - 14/07/2022 08:36:47.968 - Consulta información.
+08:40:07.979 - 14/07/2022 08:40:07.979 - Genera excel.
+08:41:03.319 - 14/07/2022 08:41:03.319 - Genera Zip.
+08:42:19.643 - Error -2147024894: No se pudo encontrar el archivo 'C:\Users\usuario\AppData\Local\Temp\20220714083647952Guias_Disponibles_14-07-2022.xlsx'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en System.IO.File.Copy(String sourceFileName, String destFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 77
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+08:45:08.905 - 14/07/2022 08:45:08.904 - No se ha introducido el número correcto de argumentos por linea de comandos.
+08:45:08.907 - 14/07/2022 08:45:08.907 - Proceso local, no consulta parametros de la BD´s
+08:45:08.909 - 14/07/2022 08:45:08.909 - Inicia proceso Guias Disponibles.
+08:45:08.910 - 14/07/2022 08:45:08.910 - Consulta información.
+08:48:28.146 - 14/07/2022 08:48:28.146 - Genera excel.
+08:48:39.362 - Error -2147024893: No se puede encontrar una parte de la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714084508907\Guias_Disponibles_14-07-2022.xlsx'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   en System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   en SpreadsheetLight.SLDocument.SaveAs(String FileName)
+   en LogisFunctions.DataTableToExcel(DataTable dtInfo, String fileName) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 208
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+08:48:39.366 - 14/07/2022 08:48:39.365 - Genera Zip.
+08:51:47.914 - Error -2147024891: Acceso denegado a la ruta de acceso 'C:\ReportServer2022\bin\Debug'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 89
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+08:53:23.736 - 14/07/2022 08:53:23.735 - No se ha introducido el número correcto de argumentos por linea de comandos.
+08:53:23.738 - 14/07/2022 08:53:23.737 - Proceso local, no consulta parametros de la BD´s
+08:53:23.741 - 14/07/2022 08:53:23.741 - Inicia proceso Guias Disponibles.
+08:53:23.744 - 14/07/2022 08:53:23.743 - Consulta información.
+08:57:01.427 - 14/07/2022 08:57:01.427 - Genera excel.
+08:58:19.024 - 14/07/2022 08:58:19.024 - Genera Zip.
+08:59:36.069 - Error -2147024891: Acceso denegado a la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714085323738'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 89
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+08:59:36.070 - 14/07/2022 08:59:36.070 - Envía correo electrónico.
+10:22:52.902 - 14/07/2022 10:22:52.687 - No se ha introducido el número correcto de argumentos por linea de comandos.
+10:22:52.921 - 14/07/2022 10:22:52.921 - Proceso local, no consulta parametros de la BD´s
+10:22:52.942 - 14/07/2022 10:22:52.942 - Inicia proceso Guias Disponibles.
+10:22:52.970 - 14/07/2022 10:22:52.970 - Consulta información.
+10:27:10.445 - 14/07/2022 10:27:10.445 - Genera excel.
+10:27:57.840 - 14/07/2022 10:27:57.840 - Genera Zip.
+10:28:56.940 - Error -2147024891: Acceso denegado a la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714102252922'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 89
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+10:28:56.942 - 14/07/2022 10:28:56.941 - Envía correo electrónico.
+10:30:14.427 - Error -2147024816: El archivo 'C:\Users\usuario\AppData\Local\Temp\20220714102252922_zip\/Guias_Disponibles_14-07-2022.xlsx' ya existe.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en System.IO.File.Copy(String sourceFileName, String destFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 77
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+10:30:20.846 - 14/07/2022 10:30:20.846 - Genera Zip.
+10:30:27.648 - Error -2147024816: El archivo 'C:\Users\usuario\AppData\Local\Temp\20220714102252922_zip\/Guias_Disponibles_14-07-2022.xlsx' ya existe.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en System.IO.File.Copy(String sourceFileName, String destFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 77
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+10:30:27.649 - 14/07/2022 10:30:27.649 - Envía correo electrónico.
+10:30:31.318 - 14/07/2022 10:30:31.318 - Genera Zip.
+10:30:31.688 - Error -2147024816: El archivo 'C:\Users\usuario\AppData\Local\Temp\20220714102252922_zip\/Guias_Disponibles_14-07-2022.xlsx' ya existe.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   en System.IO.File.Copy(String sourceFileName, String destFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 77
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+10:30:33.605 - 14/07/2022 10:30:33.605 - Envía correo electrónico.
+10:32:46.336 - 14/07/2022 10:32:46.336 - No se ha introducido el número correcto de argumentos por linea de comandos.
+10:32:46.353 - 14/07/2022 10:32:46.353 - Proceso local, no consulta parametros de la BD´s
+10:32:46.359 - 14/07/2022 10:32:46.359 - Inicia proceso Guias Disponibles.
+10:32:46.360 - 14/07/2022 10:32:46.360 - Consulta información.
+10:33:03.798 - 14/07/2022 10:33:03.798 - Genera excel.
+10:34:16.567 - 14/07/2022 10:34:16.567 - Genera Zip.
+10:38:43.605 - 14/07/2022 10:38:43.605 - No se ha introducido el número correcto de argumentos por linea de comandos.
+10:38:43.608 - 14/07/2022 10:38:43.608 - Proceso local, no consulta parametros de la BD´s
+10:38:43.613 - 14/07/2022 10:38:43.613 - Inicia proceso Guias Disponibles.
+10:38:43.615 - 14/07/2022 10:38:43.615 - Consulta información.
+10:38:50.380 - 14/07/2022 10:38:50.380 - Genera excel.
+10:39:07.668 - 14/07/2022 10:39:07.667 - Genera Zip.
+10:41:04.736 - Error -2147024893: No se puede encontrar una parte de la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714103843609_zip\'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 89
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+10:47:40.324 - 14/07/2022 10:47:40.323 - No se ha introducido el número correcto de argumentos por linea de comandos.
+10:47:40.333 - 14/07/2022 10:47:40.333 - Proceso local, no consulta parametros de la BD´s
+10:47:40.337 - 14/07/2022 10:47:40.336 - Inicia proceso Guias Disponibles.
+10:47:40.338 - 14/07/2022 10:47:40.338 - Consulta información.
+10:47:43.430 - 14/07/2022 10:47:43.430 - Genera excel.
+10:47:55.484 - 14/07/2022 10:47:55.484 - Genera Zip.
+10:50:10.870 - 14/07/2022 10:50:10.870 - Envía correo electrónico.
+10:54:19.670 - 14/07/2022 10:54:19.670 - Termina proceso Guias Disponibles.
+10:54:30.909 - 14/07/2022 10:54:30.909 - Proceso Terminado.
+11:02:57.533 - 14/07/2022 11:02:57.533 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:02:57.535 - 14/07/2022 11:02:57.535 - Proceso local, no consulta parametros de la BD´s
+11:02:57.537 - 14/07/2022 11:02:57.537 - Inicia proceso Guias Disponibles.
+11:02:57.538 - 14/07/2022 11:02:57.538 - Consulta información.
+11:03:01.486 - 14/07/2022 11:03:01.486 - Genera excel.
+11:03:12.636 - 14/07/2022 11:03:12.636 - Genera Zip.
+11:03:35.847 - 14/07/2022 11:03:35.846 - Envía correo electrónico.
+11:03:41.255 - Error -2146233033: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+	 Source: System [C:\Users\usuario\AppData\Local\Temp\20220714110257535_zip\20220714_110335833.zip]
+	 StackTrace:    en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en LogisFunctions.SendMail(String reportName, List`1 lstMailTo, List`1 lstMailCC, List`1 lstMailCCO, List`1 lstMailAttachmentFiles) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 629
+	 TargetSite 'ParseAddress': 
+	 data = 
+	 expectMultipleAddresses = 
+	 index = 
+	
+11:03:41.346 - 14/07/2022 11:03:41.346 - Termina proceso Guias Disponibles.
+11:03:41.346 - 14/07/2022 11:03:41.346 - Proceso Terminado.
+11:07:00.495 - 14/07/2022 11:07:00.494 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:07:00.497 - 14/07/2022 11:07:00.496 - Proceso local, no consulta parametros de la BD´s
+11:07:00.499 - 14/07/2022 11:07:00.499 - Inicia proceso Guias Disponibles.
+11:07:00.502 - 14/07/2022 11:07:00.502 - Consulta información.
+11:07:02.766 - 14/07/2022 11:07:02.766 - Genera excel.
+11:07:13.489 - 14/07/2022 11:07:13.488 - Genera Zip.
+11:07:13.521 - 14/07/2022 11:07:13.521 - Envía correo electrónico.
+11:07:13.565 - Error -2146233033: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+	 Source: System [C:\Users\usuario\AppData\Local\Temp\20220714110700497_zip\20220714_110713499.zip]
+	 StackTrace:    en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en LogisFunctions.SendMail(String reportName, List`1 lstMailTo, List`1 lstMailCC, List`1 lstMailCCO, List`1 lstMailAttachmentFiles) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 629
+	 TargetSite 'ParseAddress': 
+	 data = 
+	 expectMultipleAddresses = 
+	 index = 
+	
+11:07:13.620 - 14/07/2022 11:07:13.620 - Termina proceso Guias Disponibles.
+11:07:13.621 - 14/07/2022 11:07:13.621 - Proceso Terminado.
+11:08:17.870 - 14/07/2022 11:08:17.869 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:08:17.872 - 14/07/2022 11:08:17.872 - Proceso local, no consulta parametros de la BD´s
+11:08:17.876 - 14/07/2022 11:08:17.876 - Inicia proceso Guias Disponibles.
+11:08:17.877 - 14/07/2022 11:08:17.877 - Consulta información.
+11:08:19.821 - 14/07/2022 11:08:19.821 - Genera excel.
+11:08:21.251 - 14/07/2022 11:08:21.251 - Genera Zip.
+11:08:21.273 - 14/07/2022 11:08:21.273 - Envía correo electrónico.
+11:08:21.315 - Error -2146233033: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+	 Source: System [C:\Users\usuario\AppData\Local\Temp\20220714110817874_zip\20220714_110821261.zip]
+	 StackTrace:    en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en LogisFunctions.SendMail(String reportName, List`1 lstMailTo, List`1 lstMailCC, List`1 lstMailCCO, List`1 lstMailAttachmentFiles) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 629
+	 TargetSite 'ParseAddress': 
+	 data = 
+	 expectMultipleAddresses = 
+	 index = 
+	
+11:08:21.369 - 14/07/2022 11:08:21.369 - Termina proceso Guias Disponibles.
+11:08:21.371 - 14/07/2022 11:08:21.371 - Proceso Terminado.
+11:14:42.805 - 14/07/2022 11:14:42.804 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:14:42.807 - 14/07/2022 11:14:42.807 - Proceso local, no consulta parametros de la BD´s
+11:14:42.810 - 14/07/2022 11:14:42.810 - Inicia proceso Guias Disponibles.
+11:14:42.811 - 14/07/2022 11:14:42.811 - Consulta información.
+11:14:46.686 - 14/07/2022 11:14:46.686 - Genera excel.
+11:14:57.669 - 14/07/2022 11:14:57.668 - Genera Zip.
+11:14:57.691 - 14/07/2022 11:14:57.691 - Envía correo electrónico.
+11:14:57.758 - Error -2146233033: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+	 Source: System [C:\Users\usuario\AppData\Local\Temp\20220714111442808_zip\20220714_111457679.zip]
+	 StackTrace:    en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en LogisFunctions.SendMail(String reportName, List`1 lstMailTo, List`1 lstMailCC, List`1 lstMailCCO, List`1 lstMailAttachmentFiles) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 629
+	 TargetSite 'ParseAddress': 
+	 data = 
+	 expectMultipleAddresses = 
+	 index = 
+	
+11:14:57.822 - 14/07/2022 11:14:57.822 - Termina proceso Guias Disponibles.
+11:14:57.823 - 14/07/2022 11:14:57.823 - Proceso Terminado.
+11:16:13.399 - 14/07/2022 11:16:13.397 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:16:13.400 - 14/07/2022 11:16:13.400 - Proceso local, no consulta parametros de la BD´s
+11:16:13.402 - 14/07/2022 11:16:13.402 - Inicia proceso Guias Disponibles.
+11:16:13.403 - 14/07/2022 11:16:13.403 - Consulta información.
+11:16:14.098 - 14/07/2022 11:16:14.098 - Genera excel.
+11:16:20.279 - 14/07/2022 11:16:20.279 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:16:20.282 - 14/07/2022 11:16:20.282 - Proceso local, no consulta parametros de la BD´s
+11:16:20.286 - 14/07/2022 11:16:20.285 - Inicia proceso Guias Disponibles.
+11:16:20.287 - 14/07/2022 11:16:20.287 - Consulta información.
+11:16:25.027 - 14/07/2022 11:16:25.027 - Genera excel.
+11:16:34.135 - 14/07/2022 11:16:34.135 - Genera Zip.
+11:16:34.175 - 14/07/2022 11:16:34.175 - Envía correo electrónico.
+11:23:42.098 - 14/07/2022 11:23:42.097 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:23:42.100 - 14/07/2022 11:23:42.100 - Proceso local, no consulta parametros de la BD´s
+11:23:42.103 - 14/07/2022 11:23:42.103 - Inicia proceso Guias Disponibles.
+11:23:42.105 - 14/07/2022 11:23:42.105 - Consulta información.
+11:23:47.006 - 14/07/2022 11:23:47.005 - Genera excel.
+11:23:58.873 - 14/07/2022 11:23:58.873 - Genera Zip.
+11:26:06.644 - 14/07/2022 11:26:05.709 - Envía correo electrónico.
+11:28:56.841 - 14/07/2022 11:28:56.840 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:28:56.843 - 14/07/2022 11:28:56.843 - Proceso local, no consulta parametros de la BD´s
+11:28:56.848 - 14/07/2022 11:28:56.848 - Inicia proceso Guias Disponibles.
+11:28:56.850 - 14/07/2022 11:28:56.850 - Consulta información.
+11:28:59.397 - 14/07/2022 11:28:59.396 - Genera excel.
+11:29:10.517 - 14/07/2022 11:29:10.517 - Genera Zip.
+11:29:16.226 - 14/07/2022 11:29:16.226 - Envía correo electrónico.
+11:30:28.532 - 14/07/2022 11:30:28.531 - Termina proceso Guias Disponibles.
+11:30:28.533 - 14/07/2022 11:30:28.533 - Proceso Terminado.
+11:35:45.174 - 14/07/2022 11:35:45.173 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:35:45.183 - 14/07/2022 11:35:45.183 - Proceso local, no consulta parametros de la BD´s
+11:35:45.194 - 14/07/2022 11:35:45.194 - Inicia proceso Guias Disponibles.
+11:35:45.196 - 14/07/2022 11:35:45.196 - Consulta información.
+11:35:52.308 - 14/07/2022 11:35:52.308 - Genera excel.
+11:36:03.242 - 14/07/2022 11:36:03.242 - Genera Zip.
+11:36:08.072 - 14/07/2022 11:36:08.072 - Envía correo electrónico.
+11:36:22.575 - 14/07/2022 11:36:22.575 - Termina proceso Guias Disponibles.
+11:36:22.576 - 14/07/2022 11:36:22.576 - Proceso Terminado.
+11:38:34.778 - 14/07/2022 11:38:34.777 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:38:34.779 - 14/07/2022 11:38:34.779 - Proceso local, no consulta parametros de la BD´s
+11:38:34.781 - 14/07/2022 11:38:34.781 - Inicia proceso Guias Disponibles.
+11:38:34.782 - 14/07/2022 11:38:34.782 - Consulta información.
+11:38:35.708 - 14/07/2022 11:38:35.708 - Genera excel.
+11:38:37.253 - 14/07/2022 11:38:37.253 - Genera Zip.
+11:38:37.267 - 14/07/2022 11:38:37.267 - Envía correo electrónico.
+11:38:37.383 - 14/07/2022 11:38:37.383 - Termina proceso Guias Disponibles.
+11:38:37.384 - 14/07/2022 11:38:37.384 - Proceso Terminado.
+11:39:41.607 - 14/07/2022 11:39:41.607 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:39:41.609 - 14/07/2022 11:39:41.609 - Proceso local, no consulta parametros de la BD´s
+11:39:41.611 - 14/07/2022 11:39:41.611 - Inicia proceso Guias Disponibles.
+11:39:41.612 - 14/07/2022 11:39:41.612 - Consulta información.
+11:39:42.518 - 14/07/2022 11:39:42.518 - Genera excel.
+11:39:44.044 - 14/07/2022 11:39:44.043 - Genera Zip.
+11:39:44.057 - 14/07/2022 11:39:44.056 - Envía correo electrónico.
+11:39:44.179 - 14/07/2022 11:39:44.179 - Termina proceso Guias Disponibles.
+11:39:44.180 - 14/07/2022 11:39:44.180 - Proceso Terminado.
+11:49:07.059 - 14/07/2022 11:49:07.058 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:49:07.061 - 14/07/2022 11:49:07.061 - Proceso local, no consulta parametros de la BD´s
+11:49:07.063 - 14/07/2022 11:49:07.063 - Inicia proceso Guias Disponibles.
+11:49:07.064 - 14/07/2022 11:49:07.064 - Consulta información.
+11:49:07.772 - 14/07/2022 11:49:07.772 - Genera excel.
+11:49:09.282 - 14/07/2022 11:49:09.282 - Genera Zip.
+11:49:09.416 - Error -2147024893: No se puede encontrar una parte de la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714114907061_zip\'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   en System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   en LogisFunctions.CompressFolder(String path) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 99
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+11:49:09.418 - 14/07/2022 11:49:09.418 - Envía correo electrónico.
+11:49:09.426 - Error -2147024893: No se puede encontrar una parte de la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714114907061_zip\'.
+	 Source: mscorlib [C:\Users\usuario\AppData\Local\Temp\20220714114907061_zip\ (0 bytes)]
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   en System.Net.Mail.AttachmentBase..ctor(String fileName)
+   en System.Net.Mail.Attachment..ctor(String fileName)
+   en LogisFunctions.SendMail(String reportName, List`1 lstMailTo, List`1 lstMailAttachmentFiles, List`1 lstMailCC, List`1 lstMailCCO) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 681
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+11:49:09.497 - 14/07/2022 11:49:09.497 - Termina proceso Guias Disponibles.
+11:49:09.499 - 14/07/2022 11:49:09.499 - Proceso Terminado.
+11:50:24.928 - 14/07/2022 11:50:24.927 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:50:24.929 - 14/07/2022 11:50:24.929 - Proceso local, no consulta parametros de la BD´s
+11:50:24.936 - 14/07/2022 11:50:24.936 - Inicia proceso Guias Disponibles.
+11:50:24.938 - 14/07/2022 11:50:24.938 - Consulta información.
+11:50:28.233 - 14/07/2022 11:50:28.233 - Genera excel.
+11:50:42.589 - 14/07/2022 11:50:42.589 - Genera Zip.
+11:52:24.340 - 14/07/2022 11:52:24.339 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:52:24.342 - 14/07/2022 11:52:24.341 - Proceso local, no consulta parametros de la BD´s
+11:52:24.344 - 14/07/2022 11:52:24.344 - Inicia proceso Guias Disponibles.
+11:52:24.346 - 14/07/2022 11:52:24.346 - Consulta información.
+11:52:25.012 - 14/07/2022 11:52:25.012 - Genera excel.
+11:52:26.487 - 14/07/2022 11:52:26.487 - Genera Zip.
+11:52:26.501 - 14/07/2022 11:52:26.501 - Envía correo electrónico.
+11:52:26.627 - 14/07/2022 11:52:26.627 - Termina proceso Guias Disponibles.
+11:52:26.628 - 14/07/2022 11:52:26.628 - Proceso Terminado.
+11:56:19.661 - 14/07/2022 11:56:19.660 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:56:19.662 - 14/07/2022 11:56:19.662 - Proceso local, no consulta parametros de la BD´s
+11:56:19.665 - 14/07/2022 11:56:19.664 - Inicia proceso Guias Disponibles.
+11:56:19.666 - 14/07/2022 11:56:19.666 - Consulta información.
+11:56:20.383 - 14/07/2022 11:56:20.383 - Genera excel.
+11:56:21.822 - 14/07/2022 11:56:21.822 - Genera Zip.
+11:56:21.847 - 14/07/2022 11:56:21.847 - Envía correo electrónico.
+11:56:21.993 - 14/07/2022 11:56:21.993 - Termina proceso Guias Disponibles.
+11:56:21.994 - 14/07/2022 11:56:21.994 - Proceso Terminado.
+11:58:17.708 - 14/07/2022 11:58:17.707 - No se ha introducido el número correcto de argumentos por linea de comandos.
+11:58:17.710 - 14/07/2022 11:58:17.710 - Proceso local, no consulta parametros de la BD´s
+11:58:17.712 - 14/07/2022 11:58:17.712 - Inicia proceso Guias Disponibles.
+11:58:17.714 - 14/07/2022 11:58:17.714 - Consulta información.
+11:58:18.705 - 14/07/2022 11:58:18.705 - Genera excel.
+11:58:20.119 - 14/07/2022 11:58:20.119 - Genera Zip.
+11:58:20.132 - 14/07/2022 11:58:20.132 - Envía correo electrónico.
+11:58:20.248 - 14/07/2022 11:58:20.248 - Termina proceso Guias Disponibles.
+11:58:20.249 - 14/07/2022 11:58:20.249 - Proceso Terminado.
+12:04:22.364 - 14/07/2022 12:04:22.364 - No se ha introducido el número correcto de argumentos por linea de comandos.
+12:04:22.388 - 14/07/2022 12:04:22.387 - Proceso local, no consulta parametros de la BD´s
+12:04:22.390 - 14/07/2022 12:04:22.390 - Inicia proceso Guias Disponibles.
+12:04:22.391 - 14/07/2022 12:04:22.391 - Consulta información.
+12:04:23.162 - 14/07/2022 12:04:23.162 - Genera excel.
+12:04:24.967 - 14/07/2022 12:04:24.967 - Genera Zip.
+12:04:25.014 - 14/07/2022 12:04:25.014 - Envía correo electrónico.
+12:04:25.223 - 14/07/2022 12:04:25.222 - Termina proceso Guias Disponibles.
+12:04:25.224 - 14/07/2022 12:04:25.224 - Proceso Terminado.
+12:06:59.092 - 14/07/2022 12:06:59.091 - No se ha introducido el número correcto de argumentos por linea de comandos.
+12:06:59.093 - 14/07/2022 12:06:59.093 - Proceso local, no consulta parametros de la BD´s
+12:06:59.095 - 14/07/2022 12:06:59.095 - Inicia proceso Guias Disponibles.
+12:06:59.097 - 14/07/2022 12:06:59.097 - Consulta información.
+12:06:59.824 - 14/07/2022 12:06:59.824 - Genera excel.
+12:07:01.196 - 14/07/2022 12:07:01.195 - Genera Zip.
+12:07:01.223 - 14/07/2022 12:07:01.223 - Envía correo electrónico.
+12:07:01.341 - 14/07/2022 12:07:01.341 - Termina proceso Guias Disponibles.
+12:07:01.342 - 14/07/2022 12:07:01.342 - Proceso Terminado.
+12:08:03.824 - 14/07/2022 12:08:03.823 - No se ha introducido el número correcto de argumentos por linea de comandos.
+12:08:03.825 - 14/07/2022 12:08:03.825 - Proceso local, no consulta parametros de la BD´s
+12:08:03.828 - 14/07/2022 12:08:03.828 - Inicia proceso Guias Disponibles.
+12:08:03.830 - 14/07/2022 12:08:03.829 - Consulta información.
+12:08:04.517 - 14/07/2022 12:08:04.516 - Genera excel.
+12:08:05.908 - 14/07/2022 12:08:05.908 - Genera Zip.
+12:08:05.960 - 14/07/2022 12:08:05.960 - Envía correo electrónico.
+12:08:06.093 - 14/07/2022 12:08:06.093 - Termina proceso Guias Disponibles.
+12:08:06.094 - 14/07/2022 12:08:06.094 - Proceso Terminado.
+12:09:01.921 - 14/07/2022 12:09:01.920 - No se ha introducido el número correcto de argumentos por linea de comandos.
+12:09:01.922 - 14/07/2022 12:09:01.922 - Proceso local, no consulta parametros de la BD´s
+12:09:01.925 - 14/07/2022 12:09:01.925 - Inicia proceso Guias Disponibles.
+12:09:01.926 - 14/07/2022 12:09:01.926 - Consulta información.
+12:09:02.844 - 14/07/2022 12:09:02.844 - Genera excel.
+12:09:04.320 - 14/07/2022 12:09:04.320 - Genera Zip.
+12:09:04.343 - 14/07/2022 12:09:04.342 - Envía correo electrónico.
+12:09:04.768 - 14/07/2022 12:09:04.768 - Termina proceso Guias Disponibles.
+12:09:04.792 - 14/07/2022 12:09:04.792 - Proceso Terminado.
+12:10:15.638 - 14/07/2022 12:10:15.638 - No se ha introducido el número correcto de argumentos por linea de comandos.
+12:10:15.640 - 14/07/2022 12:10:15.640 - Proceso local, no consulta parametros de la BD´s
+12:10:15.642 - 14/07/2022 12:10:15.642 - Inicia proceso Guias Disponibles.
+12:10:15.643 - 14/07/2022 12:10:15.643 - Consulta información.
+12:14:15.746 - 14/07/2022 12:14:15.746 - Genera excel.
+12:14:32.878 - 14/07/2022 12:14:32.878 - Genera Zip.
+12:14:32.947 - 14/07/2022 12:14:32.946 - Envía correo electrónico.
+12:14:33.342 - 14/07/2022 12:14:33.342 - Termina proceso Guias Disponibles.
+12:14:33.344 - 14/07/2022 12:14:33.344 - Proceso Terminado.
+13:26:38.263 - 14/07/2022 13:26:38.247 - No se ha introducido el número correcto de argumentos por linea de comandos.
+13:26:38.287 - 14/07/2022 13:26:38.287 - Proceso local, no consulta parametros de la BD´s
+13:26:38.290 - 14/07/2022 13:26:38.290 - Inicia proceso Guias Disponibles.
+13:26:38.292 - 14/07/2022 13:26:38.291 - Consulta información.
+13:30:10.146 - 14/07/2022 13:30:10.146 - Genera excel.
+13:30:24.088 - Error -2147024893: No se puede encontrar una parte de la ruta de acceso 'C:\Users\usuario\AppData\Local\Temp\20220714132638288\Guias_Disponibles_14-07-2022.xlsx'.
+	 Source: mscorlib
+	 StackTrace:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   en System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   en SpreadsheetLight.SLDocument.SaveAs(String FileName)
+   en LogisFunctions.DataTableToExcel(DataTable dtInfo, String fileName) en C:\Users\usuario\source\repos\LogisFunction\LogisFunctions.cs:línea 218
+	 TargetSite 'WinIOError': 
+	 errorCode = 
+	 maybeFullPath = 
+	
+13:30:24.091 - 14/07/2022 13:30:24.091 - Genera Zip.
+13:32:23.248 - 14/07/2022 13:32:23.247 - No se ha introducido el número correcto de argumentos por linea de comandos.
+13:32:23.272 - 14/07/2022 13:32:23.272 - Proceso local, no consulta parametros de la BD´s
+13:32:23.277 - 14/07/2022 13:32:23.277 - Inicia proceso Guias Disponibles.
+13:32:23.278 - 14/07/2022 13:32:23.278 - Consulta información.
+13:34:08.730 - 14/07/2022 13:34:08.729 - No se ha introducido el número correcto de argumentos por linea de comandos.
+13:34:08.733 - 14/07/2022 13:34:08.733 - Proceso local, no consulta parametros de la BD´s
+13:34:08.736 - 14/07/2022 13:34:08.736 - Inicia proceso Guias Disponibles.
+13:34:08.737 - 14/07/2022 13:34:08.737 - Consulta información.
+13:35:06.204 - 14/07/2022 13:35:06.204 - No se ha introducido el número correcto de argumentos por linea de comandos.
+13:35:06.205 - 14/07/2022 13:35:06.205 - Proceso local, no consulta parametros de la BD´s
+13:35:06.207 - 14/07/2022 13:35:06.207 - Inicia proceso Guias Disponibles.
+13:35:06.208 - 14/07/2022 13:35:06.208 - Consulta información.
+13:35:51.623 - 14/07/2022 13:35:51.622 - No se ha introducido el número correcto de argumentos por linea de comandos.
+13:35:51.625 - 14/07/2022 13:35:51.625 - Proceso local, no consulta parametros de la BD´s
+13:35:51.627 - 14/07/2022 13:35:51.627 - Inicia proceso Guias Disponibles.
+13:35:51.628 - 14/07/2022 13:35:51.628 - Consulta información.
+13:39:31.393 - 14/07/2022 13:39:31.392 - Genera excel.
+13:39:43.595 - 14/07/2022 13:39:43.595 - Genera Zip.
+13:39:43.659 - 14/07/2022 13:39:43.658 - Envía correo electrónico.
+13:52:55.938 - 14/07/2022 13:52:55.938 - No se ha introducido el número correcto de argumentos por linea de comandos.
+13:52:55.940 - 14/07/2022 13:52:55.940 - Proceso local, no consulta parametros de la BD´s
+13:52:55.942 - 14/07/2022 13:52:55.942 - Inicia proceso Guias Disponibles.
+13:52:55.944 - 14/07/2022 13:52:55.944 - Consulta información.
+13:56:28.578 - 14/07/2022 13:56:28.577 - Genera excel.
+13:57:52.361 - 14/07/2022 13:57:52.361 - Genera Zip.
+13:58:35.618 - 14/07/2022 13:58:35.618 - Envía correo electrónico.
+14:00:06.927 - 14/07/2022 14:00:06.926 - No se ha introducido el número correcto de argumentos por linea de comandos.
+14:00:06.929 - 14/07/2022 14:00:06.929 - Proceso local, no consulta parametros de la BD´s
+14:00:06.931 - 14/07/2022 14:00:06.931 - Inicia proceso Guias Disponibles.
+14:00:06.933 - 14/07/2022 14:00:06.933 - Consulta información.
+14:01:22.914 - 14/07/2022 14:01:22.914 - No se ha introducido el número correcto de argumentos por linea de comandos.
+14:01:22.916 - 14/07/2022 14:01:22.916 - Proceso local, no consulta parametros de la BD´s
+14:01:22.917 - 14/07/2022 14:01:22.917 - Inicia proceso Guias Disponibles.
+14:01:22.918 - 14/07/2022 14:01:22.918 - Consulta información.
+14:04:51.745 - 14/07/2022 14:04:51.745 - Genera excel.
+14:05:36.923 - 14/07/2022 14:05:36.923 - Genera Zip.
+14:06:08.075 - 14/07/2022 14:06:08.075 - Envía correo electrónico.
+14:07:10.385 - 14/07/2022 14:07:10.385 - Termina proceso Guias Disponibles.
+14:07:10.386 - 14/07/2022 14:07:10.386 - Proceso Terminado.
+14:58:20.119 - 14/07/2022 14:58:20.093 - No se ha introducido el número correcto de argumentos por linea de comandos.
+14:58:20.133 - 14/07/2022 14:58:20.133 - Proceso local, no consulta parametros de la BD´s
+14:58:20.135 - 14/07/2022 14:58:20.135 - Inicia proceso Guias Disponibles.
+14:58:20.188 - 14/07/2022 14:58:20.187 - Consulta información.
+14:58:43.905 - 14/07/2022 14:58:43.904 - No se ha introducido el número correcto de argumentos por linea de comandos.
+14:58:43.907 - 14/07/2022 14:58:43.906 - Proceso local, no consulta parametros de la BD´s
+14:58:43.909 - 14/07/2022 14:58:43.909 - Inicia proceso Guias Disponibles.
+14:58:43.911 - 14/07/2022 14:58:43.911 - Consulta información.
+14:59:22.970 - 14/07/2022 14:59:22.969 - No se ha introducido el número correcto de argumentos por linea de comandos.
+14:59:22.971 - 14/07/2022 14:59:22.971 - Proceso local, no consulta parametros de la BD´s
+14:59:22.973 - 14/07/2022 14:59:22.973 - Inicia proceso Guias Disponibles.
+14:59:22.974 - 14/07/2022 14:59:22.974 - Consulta información.
+15:03:23.594 - 14/07/2022 15:03:23.594 - Genera excel.
+15:03:54.678 - 14/07/2022 15:03:54.678 - Genera Zip.
+15:03:54.835 - 14/07/2022 15:03:54.834 - Envía correo electrónico.
+16:08:15.326 - 14/07/2022 16:08:15.326 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:08:15.327 - 14/07/2022 16:08:15.327 - Proceso local, no consulta parametros de la BD´s
+16:08:15.329 - 14/07/2022 16:08:15.329 - Inicia proceso Guias Disponibles.
+16:08:15.341 - 14/07/2022 16:08:15.330 - Consulta información.
+16:10:37.194 - 14/07/2022 16:10:37.193 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:10:37.195 - 14/07/2022 16:10:37.195 - Proceso local, no consulta parametros de la BD´s
+16:10:37.198 - 14/07/2022 16:10:37.198 - Inicia proceso Guias Disponibles.
+16:10:37.200 - 14/07/2022 16:10:37.200 - Consulta información.
+16:13:59.080 - 14/07/2022 16:13:59.080 - Genera excel.
+16:14:31.311 - 14/07/2022 16:14:31.311 - Genera Zip.
+16:14:37.048 - 14/07/2022 16:14:37.048 - Envía correo electrónico.
+16:16:20.173 -  1 file(s) where deleted!
+16:17:16.729 - 14/07/2022 16:17:16.727 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:17:16.734 - 14/07/2022 16:17:16.734 - Proceso local, no consulta parametros de la BD´s
+16:17:16.738 - 14/07/2022 16:17:16.738 - Inicia proceso Guias Disponibles.
+16:17:16.742 - 14/07/2022 16:17:16.742 - Consulta información.
+16:20:19.607 - 14/07/2022 16:20:19.607 - Genera excel.
+16:20:57.231 - 14/07/2022 16:20:57.231 - Genera Zip.
+16:21:01.091 - 14/07/2022 16:21:01.091 - Envía correo electrónico.
+16:22:21.057 - 14/07/2022 16:22:21.056 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:22:21.060 - 14/07/2022 16:22:21.060 - Proceso local, no consulta parametros de la BD´s
+16:22:21.062 - 14/07/2022 16:22:21.062 - Inicia proceso Guias Disponibles.
+16:22:21.064 - 14/07/2022 16:22:21.064 - Consulta información.
+16:25:26.241 - 14/07/2022 16:25:26.241 - Genera excel.
+16:25:54.193 - 14/07/2022 16:25:54.193 - Genera Zip.
+16:25:54.213 - 14/07/2022 16:25:54.213 - Envía correo electrónico.
+16:28:00.940 -  1 file(s) where deleted!
+16:29:05.515 -  2 file(s) where deleted!
+16:29:14.167 - 14/07/2022 16:29:14.167 - Termina proceso Guias Disponibles.
+16:29:23.822 - 14/07/2022 16:29:23.821 - Proceso Terminado.
+16:41:23.223 - 14/07/2022 16:41:23.208 - No se ha introducido el número correcto de argumentos por linea de comandos.
+16:41:23.237 - 14/07/2022 16:41:23.237 - Proceso local, no consulta parametros de la BD´s
+16:41:23.238 - 14/07/2022 16:41:23.238 - Inicia proceso Guias Disponibles.
+16:41:23.240 - 14/07/2022 16:41:23.240 - Consulta información.
+16:45:35.858 - 14/07/2022 16:45:35.858 - Genera excel.
+16:45:47.425 - 14/07/2022 16:45:47.425 - Genera Zip.
+16:45:47.460 - 14/07/2022 16:45:47.460 - Envía correo electrónico.
+16:45:47.603 -  1 file(s) where deleted from C:\Users\usuario\AppData\Local\Temp\20220714164123237!
+16:45:47.605 -  2 file(s) where deleted from C:\Users\usuario\AppData\Local\Temp\20220714164123237_zip!
+16:45:47.605 - 14/07/2022 16:45:47.605 - Termina proceso Guias Disponibles.
+16:45:47.606 - 14/07/2022 16:45:47.606 - Proceso Terminado.

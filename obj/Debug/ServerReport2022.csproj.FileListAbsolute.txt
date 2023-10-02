@@ -1,0 +1,7 @@
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\bin\Debug\spv2022.exe.config
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\bin\Debug\spv2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\bin\Debug\spv2022.pdb
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ServerReport2022.csproj.AssemblyReference.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\ServerReport2022.csproj.CoreCompileInputs.cache
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\spv2022.exe
+C:\Desarrollos\PROYECTOS_MIGRADOS\Spooler\spv2022\obj\Debug\spv2022.pdb

@@ -1,0 +1,21 @@
+1.- Transmisión de Expedientes:
+[10] 	1.1.- Marelli
+[08] 	1.2.- Bosch
+[12] 	1.3.- Absormex
+[14] 	1.4.- Antolin
+2.- DAF:
+[09] 	2.1.- Empresa 29 Facturación
+[01] 	2.2.- Fondo Fijo
+[17] 3.- Control Digitalización3
+[02] 4.- Índices de Calidad
+[18] 5.- Customs Clearance Times
+[11] 6.- LTL pendientes
+[13] 7.- CD y Picking Pendientes
+[15] 8.- Fusión
+[03] 9.- Lista de Citas
+[04] 10.- Porteos
+[05] 11.- Envíos Logis – Fuji
+[06] 12.- Entregas Logis – Fuji
+[07] 13.- Logis GSK
+[16] 14.- Estadísticas mensual de carga manejada por clientes, ciudades y cedis
+[00] 15.- variables.bas/functions.bas (FUNCIONES COMUNES)
